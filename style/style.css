@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    width: 100px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar{
+    width: 90px;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo h1{
+font-size: 40px;
+font-weight: 300px;
+letter-spacing: 3px;
+color: #222;
+}
+
+.nav-links{
+display: flex;
+list-style: none;
+gap: 70px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline;
+}
+
+.buttons{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.support-btn{
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #ddd;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.portal-btn{
+    text-decoration: none;
+    background-color: #1f3fff;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
